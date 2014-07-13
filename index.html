@@ -2,16 +2,18 @@
 <html>
 <head>
 <title>Demo Hide Paragraphs</title>
-<style> h3, h5, p {text-align: center; }</style>
+<style> h3, h4, p {text-align: center;} h3 {color: blue} h4, p {color: #ddd} #box {border-style: solid; border-width: 2px; border-color: #98bf21; width:40%; margin:10px auto 10px auto}</style>
 </head>
-<body bgcolor="#ddd">
+<body bgcolor="#232323">
+	<div id="box">
 <h3>Demo Hide Paragraphs</h3>
-<h5>Click on the paragraphy to delete the text.</h5>
+<h4>Click on the paragraphy to delete the text.</h4>
 <p>One</p>
 <p>Two</p>
 <p>Three</p>
 <p>Four</p>
 <p>Five</p>
+</div>
 <script src="js/jquery-2.1.1.min.js"></script>
 <script>
 $( "p").click(function() {
